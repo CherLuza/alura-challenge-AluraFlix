@@ -1,0 +1,48 @@
+.colaborador {
+    margin-bottom: 20px;
+}
+
+.colaborador .cabecalho {
+    background-color: #181515;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.colaborador img {
+    position: relative;
+    width: 432px;
+    height: 260.85px;
+    border: 4px solid #6BD1FF;
+    border-radius: 4px;
+    box-shadow: 5px 5px 15px rgba(242, 238, 238, 0.327);
+}
+
+.colaborador .rodape {
+    display: flex;
+    background-color: #262626;
+    box-shadow: 5px 5px 15px rgba(242, 238, 238, 0.327);
+    border: 4px solid #6BD1FF;
+
+    height: 59px;
+    border-radius: 15px;
+    border: 0px, 5px, 5px, 5px;
+    margin-top: -10px;
+    align-items: center;
+}
+
+.colaborador .rodape .botao {
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 0 16px;
+    border: none;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+.colaborador .rodape .imagemrodape {
+    width: 25px;
+    height: 28px;
+    border: none;
+    box-shadow: none;
+}

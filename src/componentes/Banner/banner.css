@@ -1,0 +1,95 @@
+.cabecalho {
+    background-color: #6278F7;
+    text-align: center;
+}
+
+.banner {
+    background-color: #0012338F;
+    background-image: url('https://s3-alpha-sig.figma.com/img/66b1/c3df/1157a06d0979f3c0f7f0de4114c0ea72?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kYcgNKheJh7IYLv5BHIEcn1EylR7Z88OKzTReUOZodSZiSOUHQCWFRqg33eXLJnPcU-hRS07akX~MivMWz8aPbAAo5-i11EOiRrGIEEhX5NbXDJaBsxuBdP6GOJBSSDHl1DeTq-3e4YDioVddsjohiUYRaZ9rgEb935xXoe0eetPaiAvckhd9LhW~z7XKt0E8~u8Y5khCJpGVTCwA9tRw8jbodibkLNm1~qXs1C7cNOuJE6AZ5rt7y0wAe0xmrcPo54vp4ZPoHR6MQQwO10EvTa5NcbH5tMAbKbzPRqTWH6t~CCf1Mjc6kaAYuja2Db3UL5jiKP5jsWGpn70Au3vQQ__');
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.titulo {
+    font-family: 'Roboto';
+    font-size: 4rem;
+    margin-top: 4.875rem;
+    margin-bottom: 2rem;
+    color: #492929;
+}
+
+.paragrafo {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 21.09px;
+    margin-bottom: 2rem;
+    color: #492929;
+    font-weight: 300;
+    width: 662.84px;
+    height: 110px;
+}
+
+.imagens>.imagensa {
+    position: absolute;
+    width: 646px;
+    height: 333px;
+    border: 4px solid #6BD1FF;
+    border-radius: 4px;
+    box-shadow: 5px 5px 15px rgba(242, 238, 238, 0.327);
+    padding-left: 40px;
+}
+
+@media (max-width: 1100px) {
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .titulo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 1.5rem;
+    }
+
+    .imagens {
+        height: 338px;
+    }
+
+    .imagens>.imagensa {
+        right: 10vw;
+        width: 35vw;
+    }
+}
+
+@media (max-width: 744px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-bottom: 2rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 2rem;
+    }
+
+    .imagens {
+        height: 307px;
+    }
+
+    .imagens>.imagensa {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens>.imagensa {
+        width: 240px;
+        transform: translate(-1.5rem, 0px);
+    }
+}

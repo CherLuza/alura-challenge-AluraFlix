@@ -1,0 +1,20 @@
+.footer {
+    background-color: #262626;
+    opacity: 90%;
+    border-top: 4px solid #2271D1;
+    box-shadow: 5px 5px 15px rgba(242, 238, 238, 0.327);
+    color: #FFF;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
