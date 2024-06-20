@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/alura-challenge-AluraFlix/static/css/main.388ab9b1.css",
+    "main.js": "/alura-challenge-AluraFlix/static/js/main.93969a0a.js",
+    "index.html": "/alura-challenge-AluraFlix/index.html",
+    "main.388ab9b1.css.map": "/alura-challenge-AluraFlix/static/css/main.388ab9b1.css.map",
+    "main.93969a0a.js.map": "/alura-challenge-AluraFlix/static/js/main.93969a0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.388ab9b1.css",
+    "static/js/main.93969a0a.js"
+  ]
+}
